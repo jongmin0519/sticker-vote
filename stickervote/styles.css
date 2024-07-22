@@ -1,0 +1,66 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+  width: 100px;
+  height: 50px;
+}
+
+td {
+  width: 270px;
+  height: 270px;
+  position: relative;
+}
+
+.dropzone {
+  position: relative;
+  font-size: 1.5em;
+  color: #333;
+  overflow: hidden;
+}
+
+#sticker {
+  width: 50px;
+  height: 50px;
+  cursor: grab;
+  transition: transform 0.2s;
+}
+
+#sticker:active {
+  cursor: grabbing;
+  transform: scale(1.2);
+}
+
+.sticker-in-cell {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+}

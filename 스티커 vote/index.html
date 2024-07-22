@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스티커 투표</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <table id="voteTable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>매우만족</th>
+                    <th>만족</th>
+                    <th>보통</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>제목1</th>
+                    <td class="dropzone" data-count="0"></td>
+                    <td class="dropzone" data-count="0"></td>
+                    <td class="dropzone" data-count="0"></td>
+                </tr>
+                <tr>
+                    <th>제목2</th>
+                    <td class="dropzone" data-count="0"></td>
+                    <td class="dropzone" data-count="0"></td>
+                    <td class="dropzone" data-count="0"></td>
+                </tr>
+                <tr>
+                    <th>제목3</th>
+                    <td class="dropzone" data-count="0"></td>
+                    <td class="dropzone" data-count="0"></td>
+                    <td class="dropzone" data-count="0"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <img id="sticker" src="sticker.png" alt="스티커" draggable="true">
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
